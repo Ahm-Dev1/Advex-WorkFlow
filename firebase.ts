@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-
+import { getAnalytics } from "firebase/analytics";
 // =================================================================================
 // TODO: أدخل إعدادات مشروع Firebase الخاص بك هنا
 // 1. انتقل إلى وحدة تحكم Firebase (https://console.firebase.google.com/)
@@ -11,12 +11,13 @@ import { getFirestore } from "firebase/firestore";
 // =================================================================================
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY", // أدخل هنا
-  authDomain: "YOUR_AUTH_DOMAIN", // أدخل هنا
-  projectId: "YOUR_PROJECT_ID", // أدخل هنا
-  storageBucket: "YOUR_STORAGE_BUCKET", // أدخل هنا
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // أدخل هنا
-  appId: "YOUR_APP_ID" // أدخل هنا
+  apiKey: "AIzaSyAmDLOXZ_GdrhxoGhnXjMq2H1aZxV-zc4M",
+  authDomain: "advex-work.firebaseapp.com",
+  projectId: "advex-work",
+  storageBucket: "advex-work.firebasestorage.app",
+  messagingSenderId: "189943605875",
+  appId: "1:189943605875:web:24ca9d0089b3e554fa9806",
+  measurementId: "G-BT24B6QBGF"
 };
 
 // Initialize Firebase
