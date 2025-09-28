@@ -1,0 +1,5 @@
+{
+  "name": "ERP Task Board",
+  "description": "A collaborative Kanban-style task board for ERP consultants to manage client tasks and notes. Features drag-and-drop functionality for easy task management across different statuses.",
+  "requestFramePermissions": []
+}
